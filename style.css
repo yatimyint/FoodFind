@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(website_bg.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    width: 100%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+   align-items: center;
+   justify-content: space-between; 
+   background: rgb(252, 248, 244);
+}
+
+.logo{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.logo :visited{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50);
+    text-align: center;
+    color:rgb(252, 248, 244);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+}
+
+button{
+    width:200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    font-weight: bold;
+    border: 2px solid;
+    background: transparent;
+    color: rgb(252, 248, 244);
+    cursor: pointer;
+    transition: ease-out 0.3s;
+    box-shadow: inset 0 0 0 0 rgb(252, 248, 244);
+
+}
+
+button:hover{
+    box-shadow: inset 200px 0 0 0 rgb(252, 248, 244);
+    cursor: pointer;
+    color: black;
+}
